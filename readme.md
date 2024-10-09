@@ -23,42 +23,41 @@ Se você ainda não tem o **PyInstaller** instalado, execute o seguinte comando 
 
 ```bash
 pip install pyinstaller
+```
+
 Como Executar a Aplicação Python
 1. Executando o Script Python
 Você pode executar diretamente o script Python utilizando o seguinte comando:
 
-bash
-Sempre exibir os detalhes
-
-Copiar código
+```bash
 python notepad.py
+```
+
 2. Gerando um Executável
 Caso você queira criar um executável para rodar o programa sem precisar abrir o código, siga os passos abaixo:
 
 Navegue até o diretório do projeto:
 
-bash
-Sempre exibir os detalhes
-
-Copiar código
+```bash
 cd caminho/para/o/diretorio
+```
+
 Utilize o PyInstaller para gerar um executável:
 
-bash
-Sempre exibir os detalhes
-
-Copiar código
+```bash
 pyinstaller --onefile notepad.py
+```
+
 O executável será gerado na pasta dist, dentro do diretório do projeto.
 
 Para rodar o executável:
 
 Windows: Dê um duplo clique no arquivo notepad.exe na pasta dist.
 Linux/macOS: Execute o comando:
-bash
-Sempre exibir os detalhes
 
-Copiar código
+```bash
 ./dist/notepad
+```
+
 Atalhos de Teclado
-Ctrl + S: Salvar o conteúdo em um arquivo .txt. 
+Ctrl + S: Salvar o conteúdo em um arquivo .txt.
